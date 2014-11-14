@@ -13,6 +13,7 @@
 		947C53481A1611A500DE8E6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947C53471A1611A500DE8E6C /* Images.xcassets */; };
 		947C534B1A1611A500DE8E6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947C53491A1611A500DE8E6C /* LaunchScreen.xib */; };
 		947C53571A1611A500DE8E6C /* LikeFBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947C53561A1611A500DE8E6C /* LikeFBSwiftTests.swift */; };
+		947C53611A16121C00DE8E6C /* Seemu_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 947C53601A16121C00DE8E6C /* Seemu_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		947C53501A1611A500DE8E6C /* LikeFBSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeFBSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947C53551A1611A500DE8E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947C53561A1611A500DE8E6C /* LikeFBSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeFBSwiftTests.swift; sourceTree = "<group>"; };
+		947C53601A16121C00DE8E6C /* Seemu_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seemu_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		947C533E1A1611A500DE8E6C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				947C53601A16121C00DE8E6C /* Seemu_Logo.png */,
 				947C533F1A1611A500DE8E6C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947C53611A16121C00DE8E6C /* Seemu_Logo.png in Resources */,
 				947C53461A1611A500DE8E6C /* Main.storyboard in Resources */,
 				947C534B1A1611A500DE8E6C /* LaunchScreen.xib in Resources */,
 				947C53481A1611A500DE8E6C /* Images.xcassets in Resources */,
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = LikeFBSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = LikeFBSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
