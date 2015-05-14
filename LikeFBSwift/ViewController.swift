@@ -22,8 +22,8 @@ class ViewController: UIViewController {
 
     @IBAction func likeusFB(sender: UIButton) {
         
-        var fbURLWeb: NSURL = NSURL(string: "https://www.facebook.com/SeemuApps")
-        var fbURLID: NSURL = NSURL(string: "fb://profile/719245588122387")
+        var fbURLWeb: NSURL = NSURL(string: "https://www.facebook.com/SeemuApps")!
+        var fbURLID: NSURL = NSURL(string: "fb://profile/719245588122387")!
         
         if(UIApplication.sharedApplication().canOpenURL(fbURLID)){
             // FB installed
